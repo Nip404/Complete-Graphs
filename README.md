@@ -1,13 +1,5 @@
 # Multiplication-Tables
 A different way of visualising multiplication in Python 3.x using the Pygame library.
-
-# Requirements
-I am using the Python 3.7.1 IDLE.\
-Download project and run main.py to use.\
-Python 3.x and Pygame 1.7.x or above is required.\
-You can download pygame either [here](https://www.pygame.org/download.shtml) or [here](https://bitbucket.org/pygame/pygame/downloads/).
-
-# Additional Info
 This code was inspired by [Mathologer's](https://www.youtube.com/channel/UC1_uAIS3r8Vu6JjXWvastJg) video on Youtube.\
 You can find the video [here](https://www.youtube.com/watch?v=qhbuKbxJsk8).
 
@@ -27,3 +19,9 @@ Factor = 1041; Density = 12.35%\
 Factor = 1041; Density = 15.8%\
 Factor = 1053; Density = 3.9%\
 Factor = 1063; Density = 36.4%\
+
+# Requirements
+I am using the Python 3.7.1 IDLE.\
+Download project and run main.py to use.\
+Python 3.x and Pygame 1.7.x or above is required.\
+You can download pygame either [here](https://www.pygame.org/download.shtml) or [here](https://bitbucket.org/pygame/pygame/downloads/).
