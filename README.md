@@ -9,7 +9,7 @@ You can download pygame either [here](https://www.pygame.org/download.shtml) or 
 
 # Additional Info
 This code was inspired by [Mathologer's](https://www.youtube.com/channel/UC1_uAIS3r8Vu6JjXWvastJg) video on Youtube.\
-You can find the video [here](https://www.youtube.com/watch?v=qhbuKbxJsk8)./
+You can find the video [here](https://www.youtube.com/watch?v=qhbuKbxJsk8).
 
 You may find some interesting patterns at:
 
