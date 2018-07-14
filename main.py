@@ -1,24 +1,4 @@
-#multiplication table visulaised, fni
-
-'''
-Interesting patterns:
-
-Factor 103; Density 8.5%
-Factor 103; Density 10.2%
-Factor 154; Density 48.45%
-Factor 2; Density 12%
-Factor 31; Density 4.5%
-Factor 46; Density 4.5%
-Factor 501; Density 12%
-Factor 479; Density 12%
-Factor 929; Density 12%
-Factor 1041; Density 12%
-Factor 1041; Density 12.35%
-Factor 1041; Density 15.8%
-Factor 1053; Density 3.9%
-Factor 1063; Density 36.4%
-'''
-
+#multiplication table visulaised
 import pygame
 import math
 import decimal
