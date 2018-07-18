@@ -86,7 +86,7 @@ def main():
                 elif event.key == pygame.K_RETURN:
                     factor = 0
 
-        screen.blit(numfont.render("FPS: %s/%s" % (str(clock.get_fps())[:5],maxfps),True,(0,0,0)),numfont.render("",True,(0,0,0)).get_rect(topleft=[10,10]))
+        screen.blit(numfont.render("FPS: %s/%s" % (str(clock.get_fps())[:5],maxfps if maxfps else "Inf"),True,(0,0,0)),numfont.render("",True,(0,0,0)).get_rect(topleft=[10,10]))
         screen.blit(numfont.render("Factor: %s" % factor,True,(0,0,0)),numfont.render("",True,(0,0,0)).get_rect(topleft=[10,30]))
         screen.blit(numfont.render("Density: %s" % (decimal.Decimal(points)/decimal.Decimal(2000)*decimal.Decimal(100))+"%",True,(0,0,0)),numfont.render("",True,(0,0,0)).get_rect(topleft=[10,50]))
     
