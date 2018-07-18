@@ -67,24 +67,29 @@ def main():
                     factor -= 1 if factor >= 1 else factor
 
                 elif event.key == pygame.K_q:
-                    points += 1 if points < 2000 else 0 
+                    points += 1
                 elif event.key == pygame.K_w:
-                    points -= 1 if points > 0 else 0
+                    points -= 1
 
                 elif event.key == pygame.K_a:
-                    points += 10 if points + 10 <= 2000 else 2000-points
+                    points += 10
                 elif event.key == pygame.K_s:
-                    points -= 10 if points - 10 >= 0 else 50-points
+                    points -= 10
 
                 elif event.key == pygame.K_z:
-                    points += 50 if points + 50 <= 2000 else 2000-points
+                    points += 50
                 elif event.key == pygame.K_x:
-                    points -= 50 if points - 50 >= 0 else 50-points
+                    points -= 50
 
                 elif event.key == pygame.K_SPACE:
                     pause = not pause
                 elif event.key == pygame.K_RETURN:
                     factor = 0
+                    
+        if points < 0:
+            points = 0
+        elif points > 2000:
+            points = 2000
 
         screen.blit(numfont.render("FPS: %s/%s" % (str(clock.get_fps())[:5],maxfps if maxfps else "Inf"),True,(0,0,0)),numfont.render("",True,(0,0,0)).get_rect(topleft=[10,10]))
         screen.blit(numfont.render("Factor: %s" % factor,True,(0,0,0)),numfont.render("",True,(0,0,0)).get_rect(topleft=[10,30]))
