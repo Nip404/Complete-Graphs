@@ -1,4 +1,3 @@
-#multiplication table visulaised
 import pygame
 import math
 import decimal
