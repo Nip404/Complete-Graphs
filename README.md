@@ -19,6 +19,7 @@ Factor = 1041; Density = 12.35%\
 Factor = 1041; Density = 15.8%\
 Factor = 1053; Density = 3.9%\
 Factor = 1063; Density = 36.4%\
+Factor = 801; Density = 4%
 
 # Requirements
 I am using the Python 3.7.1 IDLE.\
