@@ -22,7 +22,7 @@ Factor = 1063; Density = 36.4%\
 Factor = 801; Density = 4%
 
 # Requirements
-I am using the Python 3.7.1 IDLE.\
+I am using the [Python 3.7](https://www.python.org/downloads/release/python-370/) IDLE.\
 Download project and run main.py to use.\
 Python 3.x and Pygame 1.7.x or above is required.\
 You can download pygame either [here](https://www.pygame.org/download.shtml) or [here](https://bitbucket.org/pygame/pygame/downloads/).
