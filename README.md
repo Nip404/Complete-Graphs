@@ -24,8 +24,10 @@ Factor = 801; Density = 4%
 # Maths
 I calculate the coordinates of the circumference of the circle using these equations:
 - x = cx + r * cos(theta)
-- y = cy + r * sin(theta)\
-where (cx,cy) is the centre point of the circle, r is the radius, and theta is the angle in [radians](https://en.wikipedia.org/wiki/Radian) (Note that radians=0 begins at the rightmost point on the circle).\
+- y = cy + r * sin(theta)
+
+where (cx,cy) is the centre point of the circle, r is the radius, and theta is the angle in [radians](https://en.wikipedia.org/wiki/Radian).\
+Note that radians=0 begins at the rightmost point on the circle).\
 Refer to this [wikipedia article](http://en.wikipedia.org/wiki/Circle#Equations) for more information on Parametric equations.
 
 # Requirements
