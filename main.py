@@ -91,9 +91,9 @@ def main():
         elif points > 2000:
             points = 2000
 
-        screen.blit(numfont.render("FPS: %s/%s" % (str(clock.get_fps())[:5],maxfps if maxfps else "Inf"),True,(0,0,0)),numfont.render("",True,(0,0,0)).get_rect(topleft=[10,10]))
-        screen.blit(numfont.render("Factor: %s" % factor,True,(0,0,0)),numfont.render("",True,(0,0,0)).get_rect(topleft=[10,30]))
-        screen.blit(numfont.render("Density: %s" % (decimal.Decimal(points)/decimal.Decimal(2000)*decimal.Decimal(100))+"%",True,(0,0,0)),numfont.render("",True,(0,0,0)).get_rect(topleft=[10,50]))
+        screen.blit(numfont.render(f"FPS: {clock.get_fps())[:5]}/{maxfps if maxfps else "Inf"}",True,(0,0,0)),numfont.render("",True,(0,0,0)).get_rect(topleft=[10,10]))
+        screen.blit(numfont.render(f"Factor: {factor}",True,(0,0,0)),numfont.render("",True,(0,0,0)).get_rect(topleft=[10,30]))
+        screen.blit(numfont.render(f"Density: {decimal.Decimal(points)/decimal.Decimal(2000)*decimal.Decimal(100)}%",True,(0,0,0)),numfont.render("",True,(0,0,0)).get_rect(topleft=[10,50]))
     
         factor += decimal.Decimal(0.025) if not pause else decimal.Decimal(0)
         pygame.display.flip()
