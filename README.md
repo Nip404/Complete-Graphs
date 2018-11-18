@@ -1,4 +1,4 @@
-# Multiplication-Tables
+# Complete Graphs
 Visualising multiplication using complete graphs in Python 3.x using the Pygame library.
 This code was inspired by [Mathologer's](https://www.youtube.com/channel/UC1_uAIS3r8Vu6JjXWvastJg) video on Youtube.\
 You can find the video [here](https://www.youtube.com/watch?v=qhbuKbxJsk8).
